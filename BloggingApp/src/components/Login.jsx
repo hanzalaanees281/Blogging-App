@@ -64,7 +64,7 @@ function Login() {
                             type="password"
                             placeholder="Enter your password"
                             {...register("password", {
-                                required: ture
+                                // required: ture
                             })}
                         />
                         <Button type="submit"
